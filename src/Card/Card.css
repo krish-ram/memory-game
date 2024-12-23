@@ -1,0 +1,17 @@
+.card {
+    display: flex;
+
+    .face { 
+        height: 2rem; 
+    } 
+      
+    .back { 
+        height: 2rem; 
+        width: 2rem; 
+        background-color: rgb(253, 218, 175); 
+        color: rgb(61, 21, 21); 
+        border: 1px solid black; 
+        border-radius: 50%; 
+    } 
+    
+}

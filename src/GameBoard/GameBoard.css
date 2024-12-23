@@ -1,0 +1,21 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    min-width: 500px;
+    min-height: 500px;
+
+    .container {
+        display: grid;
+        margin: auto;
+        place-items: center; 
+        row-gap: 2rem;
+        grid-template-columns: repeat(3, 5rem)
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 3rem;
+    }
+}
